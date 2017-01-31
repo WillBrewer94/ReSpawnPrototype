@@ -49,7 +49,8 @@ public class Player : MonoBehaviour {
 
     void Update() {
         //Delta Time Adjustments
-        playerDeltaTime = BattleController.Shared().playerDelta;
+        //playerDeltaTime = BattleController.Shared().playerDelta;
+        playerDeltaTime = Time.fixedDeltaTime;
 
         CalculateVelocity();
         HandleWallSliding();
@@ -95,7 +96,6 @@ public class Player : MonoBehaviour {
             velocity.y = maxJumpVelocity;
         } else if(jumps >= 1) {
             jumps++;
-            velocity.y = -maxJumpVelocity * 5;
             velocity.x = maxJumpVelocity * 5;
         }
     }

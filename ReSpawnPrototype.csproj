@@ -81,13 +81,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\FlipSprite.cs" />
     <Compile Include="Assets\Scripts\BattleController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Controller2D.cs" />
     <Compile Include="Assets\Scripts\ControllerWrappers\ControllerInputWrapper.cs" />
     <Compile Include="Assets\Scripts\ControllerWrappers\PS4ControllerWrapper.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\FlipSprite.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlatformController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
